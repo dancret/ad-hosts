@@ -1,0 +1,47 @@
+# This hosts file is a  collection of hosts for blocking LG TV ads, tracking and data collection.
+#
+# Date: 02 March 2026 09:48:00 (UTC)
+#
+# ===============================================================
+
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0
+
+#=====================================
+
+0.0.0.0 connect-client.lgthinq.com
+0.0.0.0 eic-connect-client.lgthinq.com
+0.0.0.0 eic.api.lgtviot.com
+0.0.0.0 eic.cdpsvc.lgtvcommon.com
+0.0.0.0 eic.commonpush.lgtviot.com
+0.0.0.0 eic.homeprv.lgtvcommon.com
+0.0.0.0 eic.lgtviot.com
+0.0.0.0 eic.netflixvoice.lgtvcommon.com
+0.0.0.0 eic.nudge.lgtvcommon.com
+0.0.0.0 eic.rdl.lgtvcommon.com
+0.0.0.0 eic.recommend.lgtvcommon.com
+0.0.0.0 eic.sports.lgtviot.com
+0.0.0.0 ro.ad.lgsmartad.com
+0.0.0.0 ro.emp.lgsmartplatform.com
+0.0.0.0 ro.info.lgsmartad.com
+0.0.0.0 ro.lgeapi.com
+0.0.0.0 ro.nextlgsdp.com
+0.0.0.0 ro.rdx2.nextlgsdp.com
+
+# Software update checks and downloads
+0.0.0.0 eic-gfts.nextlgsdp.com
+0.0.0.0 eic-ngfts.lge.com
+0.0.0.0 lgtvonline.lge.com
+0.0.0.0 ngfts.lge.com
