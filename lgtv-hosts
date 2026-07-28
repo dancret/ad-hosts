@@ -39,6 +39,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ro.lgeapi.com
 0.0.0.0 ro.nextlgsdp.com
 0.0.0.0 ro.rdx2.nextlgsdp.com
+0.0.0.0 lg-tv-2024.prod.partner.netflix.net
 
 # Software update checks and downloads
 0.0.0.0 eic-gfts.nextlgsdp.com
